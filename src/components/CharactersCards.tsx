@@ -4,7 +4,7 @@ interface CharacterCardProps {
   name: any
   description: string
   image: string
-  punctuation: any
+  punctuation: number
 }
 
 export default function CharacterCard(props: CharacterCardProps) {

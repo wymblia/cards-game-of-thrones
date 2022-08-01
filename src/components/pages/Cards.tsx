@@ -9,7 +9,7 @@ interface CardsProps {
   cardsOnDisplay: any[]
   clickCounter: boolean
   newCard: (valueNewCard: any) => void
-  shuffleCards: (valueshuffleCards: any) => void
+  shuffleCards: (valueShuffleCards: any) => void
 }
 
 export default function Cards(props: CardsProps) {

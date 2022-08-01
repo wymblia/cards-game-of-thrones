@@ -1,21 +1,11 @@
-import {
-  Box,
-  Button,
-  createTheme,
-  AppBar,
-  IconButton,
-  Toolbar,
-  Typography,
-  FormControlLabel
-} from "@mui/material"
+import { Box, Button, AppBar, IconButton, Toolbar } from "@mui/material"
 import React, { useContext } from "react"
-import { Fragment, Key, useState } from "react"
+import { Fragment } from "react"
 import { CardContext } from "../context/CardContext"
 import MenuIcon from "@mui/icons-material/Menu"
 
 interface NavbarProps {
-  name?: string
-  title?: string
+  name: string
 }
 
 export default function Home(props: NavbarProps) {
